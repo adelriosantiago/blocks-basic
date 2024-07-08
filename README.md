@@ -45,7 +45,11 @@ Directly in the browser
 ```html
 <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet"/>
 <script src="https://unpkg.com/grapesjs"></script>
-<script src="path/to/grapesjs-blocks-basic.min.js"></script>
+
+<!-- Import plugin from CDN -->
+<script src="https://unpkg.com/grapesjs-blocks-basic"></script>
+<!-- Or from local resource-->
+<!-- <script src="path/to/grapesjs-blocks-basic.min.js"></script> -->
 
 <div id="gjs"></div>
 
